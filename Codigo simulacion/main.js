@@ -1,53 +1,56 @@
+const btn1= document.querySelector("#btnOriginal1");
 ////////EJEMPLO 1//////////
 
 ///////////////////////////////////////////
-///////////   Codigo Original  ////////////
+///////////   Código Original  ////////////
 ///////////////////////////////////////////
 
+btn1.addEventListener("click", () =>{
+    EdadMadre=parseInt(prompt("Ingresa la edad de la madre: "));
+    EdadHija=parseInt(prompt("Ingresa la edad de la hija:"));
 
-// const user_info=() =>{
-//     EdadMadre=parseInt(prompt("Ingresa la edad de la madre: "));
-//     EdadHija=parseInt(prompt("Ingresa la edad de la hija:"));
+    if(EdadMadre > EdadHija){
+        alert("La edad de la hija es "+   EdadHija   +". La edad de la madre es "+  EdadMadre   +". Bienvenidos al programa Madre-Hija.");
 
-//     if(EdadMadre > EdadHija){
-//         alert("La edad de la hija es "+   EdadHija   +". La edad de la madre es "+  EdadMadre   +". Bienvenidos al programa Madre-Hija.");
-
-//     }else{
-//         alert("La edad de la hija es "+ EdadHija  +", es mayor que a la edad de la madre "+ EdadMadre+". Por favor digite correctamente las edades." );
-//     }
-
-// }
-
-// user_info();
+    }else{
+        alert("La edad de la hija es "+ EdadHija  +", es mayor que a la edad de la madre "+ EdadMadre+". Por favor digite correctamente las edades." );
+    }
+});
 
 
 
+
+
+
+
+
+
+
+const btn2= document.querySelector("#btnMutante1");
 ////////////////////////
-//Mutacion de decision//
+//Mutación de decision//
 ////////////////////////
 
 
 ///////////////////////////////////////////
-///////////   Codigo Mutante  /////////////
+///////////   Código Mutante  /////////////
 ///////////////////////////////////////////
 
+btn2.addEventListener("click", () =>{
 
-// const user_info=() =>{
-//     EdadMadre=parseInt(prompt("Ingresa la edad de la madre: "));
-//     EdadHija=parseInt(prompt("Ingresa la edad de la hija:"));
+    EdadMadre=parseInt(prompt("Ingresa la edad de la madre: "));
+    EdadHija=parseInt(prompt("Ingresa la edad de la hija:"));
 
-//     if(EdadMadre < EdadHija){
-//         alert("La edad de la hija es "+   EdadHija   +". La edad de la madre es "+  EdadMadre   +". Bienvenidos al programa Madre-Hija.");
+    if(EdadMadre < EdadHija){
+        alert("La edad de la hija es "+   EdadHija   +". La edad de la madre es "+  EdadMadre   +". Bienvenidos al programa Madre-Hija.");
 
-//     }else{
-//         alert("La edad de la hija es "+ EdadHija  +", es mayor que a la edad de la madre "+ EdadMadre+". Por favor digite correctamente las edades." );
-//     }
-
-// }
-
-// user_info();
+    }else{
+        alert("La edad de la hija es "+ EdadHija  +", es mayor que a la edad de la madre "+ EdadMadre+". Por favor digite correctamente las edades." );
+    }
 
 
+
+});
 
 
 
@@ -57,42 +60,56 @@
 
 
 
+
+
+const btn3= document.querySelector("#btnOriginal2");
 ////////EJEMPLO 2//////////
 
 
-
-
 ///////////////////////////////////////////
-///////////   Codigo Original  ////////////
+///////////   Código Original  ////////////
 ///////////////////////////////////////////
 
+btn3.addEventListener("click", ()=>{
 
-// let arr=[2,3,4,5]
-// for (let i = 0; i < arr.length; i++) {
-//     if(i%2===0){
-//         console.log(i*2);
-//     }
-// }
+let arr=[2,3,4,5]
+for (let i = 0; i < arr.length; i++) {
+    if(i%2===0){
+        alert(i*2);
+    }
+}
+
+});
 
 
 
+const btn4= document.querySelector("#btnMutante2");
 ///////////////////////////////////////////
-///////////   Codigo Mutante  /////////////
+///////////   Código Mutante  /////////////
 ///////////////////////////////////////////
 
 
 
 ////////////////////////
-//  Mutacion de valor //
+//  Mutación de valor //
 ////////////////////////
 
+btn4.addEventListener("click", ()=>{
 
-// let arr=[2,3,4,5]
-// for (let i = 1; i < arr.length; i++) {
-//     if(i%2===0){
-//         console.log(i*2);
-//     }
-// }
+let arr=[2,3,4,5]
+for (let i = 1; i < arr.length; i++) {
+    if(i%2===0){
+        alert(i*2);
+    }
+}
+
+});
+
+
+
+
+
+
 
 
 
@@ -114,7 +131,7 @@
 
 
 ///////////////////////////////////////////
-///////////   Codigo Original  ////////////
+///////////   Código Original  ////////////
 ///////////////////////////////////////////
 
 
@@ -126,13 +143,13 @@
 // }
 
 ///////////////////////////////////////////
-///////////   Codigo Mutante  /////////////
+///////////   Código Mutante  /////////////
 ///////////////////////////////////////////
 
 
 
 ////////////////////////
-//  Mutacion de valor //
+//  Mutación de valor //
 ////////////////////////
 
 

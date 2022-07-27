@@ -1,12 +1,13 @@
 body {
   margin: 0;
+  
 }
 .div-one {
     width: 100vw;
     height: 100vh;
     background: url('https://nebulab.com/assets/blog/img/posts/an-introduction-to-mutation-testing/an-introduction-to-mutation-testing.jpg');
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -33,4 +34,28 @@ body {
     padding: 0 1em; 
     font-family: Quicksand;
   }
-  
+  button{
+    background-color: rgb(62, 211, 8);
+    padding: 20px 40px 20px 40px;
+    border:none;
+    font-size: 20px;
+    font-family: Quicksand;
+    cursor: pointer;
+
+  }
+  .botonera{
+    position: absolute;
+    top: 80%;
+    margin-left:15%;
+    background-color: rgba(0, 0, 0, 0.714);
+    width:25cm;
+    height: 1.9cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-left: 1cm;
+    padding-right: 1cm;
+
+  }
+  .btnOriginal1, .btnOriginal2{
+    background-color: rgb(255, 145, 0);
+  }
